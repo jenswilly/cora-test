@@ -1,0 +1,15 @@
+*.jou
+*.log
+*.xpr
+vivado*.str
+*.dcp
+.Xil/
+.DS_Store
+
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.srcs/
+*.gen/
