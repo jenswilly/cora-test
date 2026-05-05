@@ -18,3 +18,8 @@ status = platform.build()
 comp = client.get_component(name="freertos_hello_world")
 comp.build()
 
+status = platform.build()
+
+comp = client.get_component(name="xgpio_example")
+comp.build()
+
