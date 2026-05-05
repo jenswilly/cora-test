@@ -7,9 +7,4 @@ vivado*.str
 .DS_Store
 
 *.cache/
-*.hw/
-*.ip_user_files/
-*.sim/
 *.runs/
-*.srcs/
-*.gen/
