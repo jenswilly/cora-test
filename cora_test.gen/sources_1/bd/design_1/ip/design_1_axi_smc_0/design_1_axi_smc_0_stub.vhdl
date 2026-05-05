@@ -2,10 +2,10 @@
 -- Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2025.2.1 (lin64) Build 6403652 Thu Mar 19 13:47:00 MDT 2026
--- Date        : Tue May  5 22:00:41 2026
+-- Date        : Tue May  5 22:00:40 2026
 -- Host        : jenswilly-zbook-ubuntu running 64-bit Ubuntu 24.04.4 LTS
--- Command     : write_vhdl -force -mode synth_stub
---               /home/jenswilly/Projs/zynq7000/cora_test/cora_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_axi_smc_0 -prefix
+--               design_1_axi_smc_0_ design_1_axi_smc_0_stub.vhdl
 -- Design      : design_1_axi_smc_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z007sclg400-1

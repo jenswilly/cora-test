@@ -58,6 +58,12 @@ M_AXI_GP1_THREAD_ID_WIDTH=12,C_NUM_F2P_INTR_INPUTS=1,C_IRQ_F2P_MODE=DIRECT,C_DQ_
 =1,C_GP1_EN_MODIFIABLE_TXN=1}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_processing_system7_0_0 (
+  TTC0_WAVE0_OUT,
+  TTC0_WAVE1_OUT,
+  TTC0_WAVE2_OUT,
+  TTC1_WAVE0_OUT,
+  TTC1_WAVE1_OUT,
+  TTC1_WAVE2_OUT,
   USB0_PORT_INDCTL,
   USB0_VBUS_PWRSELECT,
   USB0_VBUS_PWRFAULT,
@@ -125,6 +131,12 @@ module design_1_processing_system7_0_0 (
   PS_PORB
 );
 
+output wire TTC0_WAVE0_OUT;
+output wire TTC0_WAVE1_OUT;
+output wire TTC0_WAVE2_OUT;
+output wire TTC1_WAVE0_OUT;
+output wire TTC1_WAVE1_OUT;
+output wire TTC1_WAVE2_OUT;
 (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:usbctrl:1.0 USBIND_0 PORT_INDCTL" *)
 (* X_INTERFACE_MODE = "master" *)
 output wire [1 : 0] USB0_PORT_INDCTL;
@@ -471,15 +483,15 @@ inout wire PS_PORB;
     .UART1_DSRN(1'B0),
     .UART1_RIN(1'B0),
     .UART1_RX(1'B1),
-    .TTC0_WAVE0_OUT(),
-    .TTC0_WAVE1_OUT(),
-    .TTC0_WAVE2_OUT(),
+    .TTC0_WAVE0_OUT(TTC0_WAVE0_OUT),
+    .TTC0_WAVE1_OUT(TTC0_WAVE1_OUT),
+    .TTC0_WAVE2_OUT(TTC0_WAVE2_OUT),
     .TTC0_CLK0_IN(1'B0),
     .TTC0_CLK1_IN(1'B0),
     .TTC0_CLK2_IN(1'B0),
-    .TTC1_WAVE0_OUT(),
-    .TTC1_WAVE1_OUT(),
-    .TTC1_WAVE2_OUT(),
+    .TTC1_WAVE0_OUT(TTC1_WAVE0_OUT),
+    .TTC1_WAVE1_OUT(TTC1_WAVE1_OUT),
+    .TTC1_WAVE2_OUT(TTC1_WAVE2_OUT),
     .TTC1_CLK0_IN(1'B0),
     .TTC1_CLK1_IN(1'B0),
     .TTC1_CLK2_IN(1'B0),

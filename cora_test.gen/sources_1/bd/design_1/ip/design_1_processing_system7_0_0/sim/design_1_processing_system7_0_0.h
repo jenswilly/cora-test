@@ -80,6 +80,12 @@ public:
 
   // module pin-to-pin RTL interface
 
+  sc_core::sc_out< bool > TTC0_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE2_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE2_OUT;
   sc_core::sc_out< sc_dt::sc_bv<2> > USB0_PORT_INDCTL;
   sc_core::sc_out< bool > USB0_VBUS_PWRSELECT;
   sc_core::sc_in< bool > USB0_VBUS_PWRFAULT;
@@ -182,6 +188,12 @@ public:
 
   // module pin-to-pin RTL interface
 
+  sc_core::sc_out< bool > TTC0_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE2_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE2_OUT;
   sc_core::sc_out< sc_dt::sc_bv<2> > USB0_PORT_INDCTL;
   sc_core::sc_out< bool > USB0_VBUS_PWRSELECT;
   sc_core::sc_in< bool > USB0_VBUS_PWRFAULT;
@@ -284,6 +296,12 @@ public:
 
   // module pin-to-pin RTL interface
 
+  sc_core::sc_out< bool > TTC0_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE2_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE2_OUT;
   sc_core::sc_out< sc_dt::sc_bv<2> > USB0_PORT_INDCTL;
   sc_core::sc_out< bool > USB0_VBUS_PWRSELECT;
   sc_core::sc_in< bool > USB0_VBUS_PWRFAULT;
@@ -388,6 +406,12 @@ public:
 
   // module pin-to-pin RTL interface
 
+  sc_core::sc_out< bool > TTC0_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE2_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE2_OUT;
   sc_core::sc_out< sc_dt::sc_bv<2> > USB0_PORT_INDCTL;
   sc_core::sc_out< bool > USB0_VBUS_PWRSELECT;
   sc_core::sc_in< bool > USB0_VBUS_PWRFAULT;
@@ -498,6 +522,12 @@ public:
 
   // module pin-to-pin RTL interface
 
+  sc_core::sc_out< bool > TTC0_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC0_WAVE2_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE0_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE1_OUT;
+  sc_core::sc_out< bool > TTC1_WAVE2_OUT;
   sc_core::sc_out< sc_dt::sc_bv<2> > USB0_PORT_INDCTL;
   sc_core::sc_out< bool > USB0_VBUS_PWRSELECT;
   sc_core::sc_in< bool > USB0_VBUS_PWRFAULT;
