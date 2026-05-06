@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.17.0-1017-oem")
+set(CMAKE_HOST_SYSTEM "Linux-6.8.0-111-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-1017-oem")
+set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-111-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/cortexa9_toolchain.cmake")
+include("/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/cortexa9_toolchain.cmake")
 
 set(CMAKE_SYSTEM "FreeRTOS")
 set(CMAKE_SYSTEM_NAME "FreeRTOS")

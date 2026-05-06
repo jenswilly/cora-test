@@ -1,4 +1,4 @@
-/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
-/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
+/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

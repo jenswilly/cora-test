@@ -1,4 +1,4 @@
-# Install script for directory: /home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/libsrc/standalone/src/arm/common
+# Install script for directory: /home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/libsrc/standalone/src/arm/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/tools/Xilinx/2025.2.1/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/tools/Xilinx/VitisEmbedded/2025.1/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/arm/common/gcc/cmake_install.cmake")
+  include("/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/arm/common/gcc/cmake_install.cmake")
 endif()
 

@@ -136,6 +136,8 @@ int main(void)
 	if (Status != XST_SUCCESS) {
 		xil_printf("Gpio Initialization Failed\r\n");
 		return XST_FAILURE;
+	} else {
+		xil_printf("Gpio init complete\r\n");
 	}
 
 	/* Set the direction for all signals as inputs except the LED output */

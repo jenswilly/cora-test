@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.17.0-1017-oem")
+set(CMAKE_HOST_SYSTEM "Linux-6.8.0-111-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-1017-oem")
+set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-111-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake")
+include("/home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

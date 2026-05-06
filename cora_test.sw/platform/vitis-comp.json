@@ -75,6 +75,5 @@
     ],
     "emptyToolchainConfiguration": []
   },
-  "useSysrootToolchain": false,
-  "templateFlow": "VITIS"
+  "useSysrootToolchain": false
 }

@@ -59,8 +59,6 @@ int main( void )
 
 	xil_printf( "Hello from Freertos example main\r\n" );
 
-XGpioPs Gpio;
-
 #if ( configSUPPORT_STATIC_ALLOCATION == 0 ) /* Normal or standard use case */
 	/* Create the two tasks.  The Tx task is given a lower priority than the
 	Rx task, so the Rx task will leave the Blocked state and pre-empt the Tx
