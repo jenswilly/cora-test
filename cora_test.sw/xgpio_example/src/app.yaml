@@ -1,3 +1,3 @@
-domain_path: /home/jenswilly/Xilinx/cora-test/cora_test.sw/platform/export/platform/sw/freertos_ps7_cortexa9_0
+domain_path: /home/jenswilly/Projs/zynq7000/cora_test/cora_test.sw/platform/export/platform/sw/freertos_ps7_cortexa9_0
 app_src_dir: /tools/Xilinx/2025.2.1/Vitis/data/embeddedsw/lib/sw_apps/empty_application
 template: empty_application
