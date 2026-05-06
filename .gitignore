@@ -6,7 +6,9 @@ vivado*.str
 .DS_Store
 
 workspace_journal_*.py
-build_configs/gen_*
+workspace_journal.py
+build_configs/  
+build/
 
 *.cache/
 *.runs/
