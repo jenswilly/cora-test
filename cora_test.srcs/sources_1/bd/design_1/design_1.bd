@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x6CC942770D535691",
+      "boundary_crc": "0x6CC94277E06F6BDA",
       "device": "xc7z007sclg400-1",
       "gen_directory": "../../../../cora_test.gen/sources_1/bd/design_1",
       "name": "design_1",
@@ -934,6 +934,9 @@
           "PCW_PCAP_PERIPHERAL_FREQMHZ": {
             "value": "200"
           },
+          "PCW_PERIPHERAL_BOARD_PRESET": {
+            "value": "part0"
+          },
           "PCW_PJTAG_PERIPHERAL_ENABLE": {
             "value": "0"
           },
@@ -1377,8 +1380,14 @@
         "inst_hier_path": "axi_gpio_0",
         "has_run_ip_tcl": "true",
         "parameters": {
+          "C_ALL_OUTPUTS": {
+            "value": "1"
+          },
+          "C_GPIO_WIDTH": {
+            "value": "6"
+          },
           "GPIO_BOARD_INTERFACE": {
-            "value": "rgb_leds"
+            "value": "Custom"
           },
           "USE_BOARD_FLOW": {
             "value": "true"
@@ -1502,9 +1511,9 @@
       "processing_system7_0_FCLK_CLK0": {
         "ports": [
           "processing_system7_0/FCLK_CLK0",
-          "processing_system7_0/M_AXI_GP0_ACLK",
           "axi_smc/aclk",
           "axi_gpio_0/s_axi_aclk",
+          "processing_system7_0/M_AXI_GP0_ACLK",
           "rst_ps7_0_50M/slowest_sync_clk"
         ]
       },
@@ -1517,8 +1526,8 @@
       "rst_ps7_0_50M_peripheral_aresetn": {
         "ports": [
           "rst_ps7_0_50M/peripheral_aresetn",
-          "axi_gpio_0/s_axi_aresetn",
-          "axi_smc/aresetn"
+          "axi_smc/aresetn",
+          "axi_gpio_0/s_axi_aresetn"
         ]
       }
     },
